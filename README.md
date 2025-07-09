@@ -16,5 +16,3 @@ The goal is to create a **whitelist of Rfam families** that meet the following c
 ## Usage
 
 All sequences for each family can be **downloaded and unzipped** using the provided script in this repository.
-
-Feel free to adjust the filters depending on your downstream tasks (e.g., sequence classification, structure prediction, generative models).
