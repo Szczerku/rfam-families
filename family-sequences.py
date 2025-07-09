@@ -30,7 +30,7 @@ def download_rfam_fasta(family_id, output_dir):
 
 def main():
     code_dir = os.path.dirname(os.path.abspath(__file__))
-    families_file = os.path.join(code_dir, "rfam-families.txt")
+    families_file = os.path.join(code_dir, "rfam-whitelist.txt")
     output_dir = Path("rfam-families-fasta")
     output_dir.mkdir(exist_ok=True)
 
